@@ -9,7 +9,7 @@ class Dog
  end
 
  def name=(breed)
-   @this_dogs_name = dogs_name	<= Setter (writer method)
+   @breed = dogs_name	<= Setter (writer method)
  end
  
  def name
