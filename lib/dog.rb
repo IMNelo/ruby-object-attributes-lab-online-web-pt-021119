@@ -1,19 +1,23 @@
 class Dog
-  def name=(name)
-    @name = name    
-  end
-  
-  def name    
-    @name
-  end
-  
-  def breed=(breed)
-    @breed = breed
-  end
-  
-  def breed
-    @breed
-  end
+
+ def name=(dogs_name)
+   @this_dogs_name = dogs_name	#<= Setter (writer method)
+ end
+ 
+ def name
+   @this_dogs_name				#<= Getter (reader method)
+ end
+
+ def name=(breed)
+   @this_dogs_name = dogs_name	<= Setter (writer method)
+ end
+ 
+ def name
+   @this_dogs_name				<= Getter (reader method)
+ end
+
+
+
 end
 
 
